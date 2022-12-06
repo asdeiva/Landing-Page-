@@ -92,9 +92,11 @@
   width: 100vw;
 }
 .container {
-  display: flex;
-  justify-content: space-evenly;
+  /* display: flex;
+  justify-content: space-evenly; */
   padding: 2rem;
+  display: flex;
+  justify-content: space-between;  
 }
 .aboutText {
   color: black;
@@ -191,6 +193,11 @@ div.scroll a:hover {
 }
 h1 {
   text-transform: uppercase;
-  font-style: bold ;
+  font-style: bold;
+  padding-top: 20px;
   /* font-size: 40px; */
+}
+.line {
+  background-color: black;
+  height: 3px;
 }
