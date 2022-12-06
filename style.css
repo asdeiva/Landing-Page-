@@ -156,7 +156,7 @@ div.scroll a:hover {
 .knowmore {
   margin-top: 50px;
   margin-bottom: 50px;
-  height: 700px;
+  height: 200px;
   /* position: relative; */
 }
 
@@ -191,5 +191,6 @@ div.scroll a:hover {
 }
 h1 {
   text-transform: uppercase;
+  font-style: bold ;
   /* font-size: 40px; */
 }
