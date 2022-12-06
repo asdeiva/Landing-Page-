@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* navbar */
+.navibar {
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  border-bottom: 2px solid white;
+}
+.sticky {
+  position: fixed;
+  width: 100vw;
+  background-color: #010101;
+}
+.navi {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  height: 70;
+  color: white;
+  background-color: black;
+}
+.link ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.navitems {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+}
+.navitems:hover {
+  color: red;
+}
+
+/* home */
+
+#home {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+#hometext {
+  margin-top: 4rem;
+  font-size: 7rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bolder;
+  animation: fade-in 2s;
+  letter-spacing: 5px;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#homeImg {
+  /* position: relative; */
+  margin-top: 50%;
+  margin-left: 50%;
+  /* margin-top: 6rem; */
+  height: 300px;
+  width: 300px;
+
+  /* border: 2px solid white; */
+  /* align-items:baseline; */
+  /* text-align: center; */
+}
+.arrow {
+  display: block;
+  margin: auto;
+  color: aliceblue;
+  width: 100px;
+}
+.blackback {
+  background-color: black;
+  width: 100vw;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+.aboutText {
+  color: black;
+  padding: 20px;
+}
+button {
+  position: absolute;
+  background: #ffffff;
+  border: 1px solid black;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+}
+.contactus {
+  text-align: center;
+  padding: 50px;
+  color: #ffffff;
+}
+.contact {
+  background-color: #000000;
+  height: 700px;
+  /* position: relative; */
+}
+.subhead {
+  padding: 20px;
+}
+input {
+  background-color: #000000;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px;
+  gap: 5px;
+  box-sizing: border-box;
+  border: 1px solid white;
+  color: white;
+}
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+#knowmore {
+  height: 100vh;
+}
+.box {
+  word-wrap: break-word;
+}
+.scroll {
+  background-color: white;
+  overflow: auto;
+  white-space: nowrap;
+}
+.scroll div {
+  display: grid;
+}
+
+div.scroll a:hover {
+  background-color: #777;
+}
+.knowmore {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 700px;
+  /* position: relative; */
+}
+
+.service {
+  display: grid;
+}
+.cards-wrapper {
+  grid-column: center-start / -1;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1rem;
+  overflow: auto;
+  padding-bottom: 1rem;
+  padding-right: var(--page-margin);
+}
+.cards-wrapper.card1 {
+  /* display: grid; */
+  place-content: center;
+  background-color: #d0f0ee;
+  color: #15928a;
+  font-size: 1.5rem;
+  height: 20rem;
+  min-width: 13rem;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 15px;
+}
+.card:hover {
+  background-color: #777;
+}
+h1 {
+  text-transform: uppercase;
+  /* font-size: 40px; */
+}
