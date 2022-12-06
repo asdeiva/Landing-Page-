@@ -50,8 +50,8 @@
   width: 100vw;
 }
 #hometext {
-  margin-top: 4rem;
-  font-size: 7rem;
+  margin-top: auto;
+  font-size: 8rem;
   color: white;
   text-transform: uppercase;
   font-weight: bolder;
@@ -147,7 +147,6 @@ input {
   background-color: white;
   overflow: auto;
   white-space: nowrap;
-  
 }
 .scroll div {
   display: grid;
