@@ -4,24 +4,24 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-/* navbar */
+
 .navibar {
-  position: fixed;
+  /* position: fixed;
   top: 0px;
-  width: 100vw;
+  width: 100vw; */
   border-bottom: 2px solid white;
 }
-.sticky {
+/* .sticky {
   position: fixed;
   width: 100vw;
   background-color: #010101;
-}
+} */
 .navi {
   display: flex;
   justify-content: space-between;
   text-align: center;
   align-items: center;
-  height: 70;
+  height: 50px;
   color: white;
   background-color: black;
 }
@@ -96,7 +96,7 @@
   justify-content: space-evenly; */
   padding: 2rem;
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
 }
 .aboutText {
   color: black;
@@ -147,6 +147,7 @@ input {
   background-color: white;
   overflow: auto;
   white-space: nowrap;
+  
 }
 .scroll div {
   display: grid;
