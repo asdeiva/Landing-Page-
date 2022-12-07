@@ -24,6 +24,7 @@
   height: 50px;
   color: white;
   background-color: black;
+  width: 100vw;
 }
 .link ul {
   display: flex;
@@ -51,7 +52,7 @@
 }
 #hometext {
   margin-top: auto;
-  font-size: 8rem;
+  font-size: 4rem;
   color: white;
   text-transform: uppercase;
   font-weight: bolder;
@@ -70,12 +71,11 @@
   }
 }
 #homeImg {
+  position: relative;
   /* position: relative; */
   margin-top: 50%;
-  margin-left: 50%;
+  /* margin-left: 50%; */
   /* margin-top: 6rem; */
-  height: 300px;
-  width: 300px;
 
   /* border: 2px solid white; */
   /* align-items:baseline; */
@@ -92,8 +92,8 @@
   width: 100vw;
 }
 .container {
-  /* display: flex;
-  justify-content: space-evenly; */
+  display: grid;
+  justify-content: space-evenly;
   padding: 2rem;
   display: flex;
   justify-content: space-between;
