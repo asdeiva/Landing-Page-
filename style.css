@@ -102,6 +102,10 @@
   color: black;
   padding: 20px;
 }
+.aboutImg{
+  width: 200px;
+  height: 400px;
+}
 button {
   position: absolute;
   background: #ffffff;
